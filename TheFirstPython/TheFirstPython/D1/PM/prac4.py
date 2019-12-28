@@ -13,3 +13,6 @@ if (castedint is castedfloat):
     print("Same")
 else:
     print("Different")
+
+print(123+123)
+print(123 + 123)
