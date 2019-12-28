@@ -39,6 +39,9 @@
     <Folder Include="D2\" />
     <Folder Include="D2\AM\" />
     <Folder Include="D2\PM\" />
+    <Folder Include="D4\" />
+    <Folder Include="D4\AM\" />
+    <Folder Include="D4\PM\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
