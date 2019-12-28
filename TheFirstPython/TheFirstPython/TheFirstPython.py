@@ -1,5 +1,4 @@
 
-
 #int
 x = 5
 print(x, type(x))
@@ -155,3 +154,129 @@ if(int(5) is float(5)):
     print("int 5 is equal to float 5")
 else:
     print("Not eqaul")
+
+
+"""
+    Strings are Arrays
+    Like many other popular programming languages, strings in Python are arrays of bytes
+    representing unicode characters
+
+    However, Python does not have a charater data type, a single charater is simply a string with 
+    a length of 1.
+
+"""
+
+a = "Hello World!"
+print(a[0])
+
+
+"""
+    Slicing
+    You can return a range of charaters by using the slice syntax.
+    Specify ther start index and the end index, separated by a colon, to return a part of the string.
+
+
+"""
+
+b = "abcdefg"
+print(b[0:19])
+
+
+# Nagative indexsing 
+# Get the charaters from 5 to positing 1, starting the count from the end of the string:
+print(b[-5:-2])
+print(b[2:5])
+print(b[0:3])
+print(b[-1])
+
+b = "Python"
+
+length = len(b)
+print(length)
+
+#strip() removes any whitespace from the beginning or the end:
+
+b = " Python  "
+length = len(b)
+print(length)
+
+length = len(b.strip())
+print(length)
+
+#lower() returns the string in lower case:
+
+print(b.lower())
+print(b.upper())
+# replace() method replaces a string with another string:
+print(b.replace("o", "OOO"))
+
+#split() method splits the string into substrings if it finds instances of the separator:
+
+a = "Paul: Reece: Emliy"
+
+print(a.split(":"))
+
+#capitalize()
+a = "capitalize"
+
+print(a.capitalize())
+
+#casefold() 
+"""
+casefold()  is similar to the lower() method,
+but the casefold() method is stronger,
+more aggressive, meaning that it will convert 
+more characters into lower case, 
+and will find more matches when comparing two strings and
+both are converted using the casefold() method.
+"""
+
+a = "banana"
+acenter = a.center(10)
+print(acenter)
+
+
+#check String
+# To check if a certain phrase or character is present in a string, we can use the ekywords in or not in
+
+
+txt = "Show me the money"
+x = "the" in txt
+print(x)
+
+txt = "Show me the money"
+x = "the" not in txt
+print(x)
+
+#String Concatenation
+
+a = "Show me"
+b = "the money"
+c = a + b
+print(c)
+
+# String Format  --format()
+date = 28
+txt = "Today is {}"
+print(txt.format(date))
+
+qty = 3
+itemno = 567
+price = 50.45
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(qty, itemno, price))
+
+
+price = 50.45
+qty = 3
+itemno = 567
+myorder = "I want {2} pieces of item {1} for {0} dollars."
+print(myorder.format(price,itemno,qty))
+
+
+#Escape Character
+# Backspace
+abcd = "Hello \bWorld"
+abcd = "Hello\tWorld"
+print (abcd)
+
