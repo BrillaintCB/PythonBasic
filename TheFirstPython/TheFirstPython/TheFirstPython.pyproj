@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>56d85ab2-2089-46e0-869f-5fa81e3adfd3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>listtype.py</StartupFile>
+    <StartupFile>D1\AM\TheFirstPython.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,13 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="listtype.py">
+    <Compile Include="D1\PM\listtype.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="prac4.py">
+    <Compile Include="D1\PM\prac4.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="TheFirstPython.py" />
+    <Compile Include="D1\AM\TheFirstPython.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="D1\" />
+    <Folder Include="D1\AM\" />
+    <Folder Include="D1\PM\" />
+    <Folder Include="D2\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
