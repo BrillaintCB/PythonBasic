@@ -63,6 +63,9 @@ b = " Python  "
 length = len(b)
 print("9 expected",length)
 #strip() removes any whitespace from the beginning or the end:
+#lstip()
+#rstrip()
+
 
 length = len(b.strip())
 print(length) #6

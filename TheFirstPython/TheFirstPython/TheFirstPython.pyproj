@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>56d85ab2-2089-46e0-869f-5fa81e3adfd3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>D2\AM\prac01.py</StartupFile>
+    <StartupFile>D2\PM\exescape.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -40,6 +40,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="D1\AM\01TheFirstPython.py" />
+    <Compile Include="D2\AM\00diffBetweenFindIndex.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="D2\AM\01PyCollections.py">
       <SubType>Code</SubType>
     </Compile>
@@ -56,6 +59,27 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="D2\AM\03MutableImmutable.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D2\PM\01Dictionaries.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D2\PM\02duplicatedLists.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D2\PM\03CopyDictionary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D2\PM\exescape.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D2\PM\fatguy.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D2\PM\InvoicePrac1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D2\PM\prac1.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

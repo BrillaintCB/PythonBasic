@@ -52,3 +52,16 @@ print(strcomma.format(2000))
 
 
 #strcomma = "{: >20,.2f}"
+
+#ex !!!python!!! (12)
+answer = "!!!python!!!"
+print(len(answer))
+
+
+ex1 = "python"
+f = "{0:!^12}"
+print(f.format(ex1))
+
+
+
+
