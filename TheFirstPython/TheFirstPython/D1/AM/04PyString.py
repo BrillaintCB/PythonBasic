@@ -25,6 +25,8 @@ print("Jhonie walker expcted",b[0:19]) #Jhonie walker
 
 # Nagative indexsing 
 # Get the charaters from 6 to positing 2(excluding), starting the count from the end of the string:
+# a[0:3] means 0 <= a < 3
+
 print(b[-6:-2]) #walk
 print(b[2:5]) #oni
 print(b[0:3]) #Jho
@@ -32,6 +34,25 @@ print(b[-1]) #r
 print(b[-2]) #e
 print(b[-2:-1]) #e
 print(b[-3:-1]) #ke
+
+
+print("*"*50)
+a = "20200104Sunny"
+date = a[4:8]
+date = a[:8]
+weather = a[8:]
+print(date)
+print(weather)
+
+# immutable 
+
+a = "Pithon"
+a[1] = "y" # this will cause an error because string is 
+           # immutable data type
+print(a[1])
+
+
+
 
 b = "Python"
 length = len(b)
