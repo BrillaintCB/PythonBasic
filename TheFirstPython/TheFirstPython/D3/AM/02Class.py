@@ -60,4 +60,43 @@ than one function to a particular operator.
 #    empCount = 0
 
 #    def _init_(self, name, salary):
-       
+
+
+class Calculator:
+    def __init__(self):
+        self.result = 0
+
+    def add(self, num):
+        self.result += num
+        return self.result
+
+    def sub(self, num):
+        self.result -= num
+        return self.result
+
+cal1 = Calculator()
+cal2 = Calculator()
+
+print(cal1.add(3))
+print(cal1.add(4))
+print(cal2.add(3))
+print(cal2.add(7))
+print(cal2.sub(1))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
