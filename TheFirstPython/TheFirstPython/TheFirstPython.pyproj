@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>56d85ab2-2089-46e0-869f-5fa81e3adfd3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>D3\AM\01function.py</StartupFile>
+    <StartupFile>D3\AM\prac01.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -83,6 +83,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="D3\AM\01function.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D3\AM\prac01.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
