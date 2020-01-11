@@ -128,6 +128,15 @@ print(sumAll(5,-4,-4,2,1))
 
 print("*"*50)
 
+def addAll(*arg1):
+    result = 0
+    for var in arg1:
+        result += var
+    return result
+
+print("*"*50)
+print(addAll(5,-4,-4,2,1,1,2,3))
+
 
 
 
@@ -159,3 +168,32 @@ The return Statement
 The statement return [expression] exiss a function, optionally passing back an expression to the caller. A return 
 
 """
+
+
+
+def add_mul(choice, *args):
+    if choice == "add":
+        result = 0
+        for i in args:
+            result += i
+    elif choice == "multiply":
+         result = 1
+         for i in args:
+             result *= i
+    return result
+
+result = add_mul("add", 8,4)
+print(result) # 12
+
+result = add_mul("multiply", 8,4)
+print(result) #32
+
+
+#Keyword parameter
+
+def print_kwargs(**kwargs):
+    print(kwargs)
+
+print_kwargs(a=1)
+
+print_kwargs(name="foo", age=3)
