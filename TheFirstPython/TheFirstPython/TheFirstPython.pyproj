@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>56d85ab2-2089-46e0-869f-5fa81e3adfd3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>D3\PM\pracconverting.py</StartupFile>
+    <StartupFile>D3\PM\review01.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -97,9 +97,6 @@
     <Compile Include="D3\AM\prac02.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="D3\AM\ttt.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="D3\PM\01Classes.py">
       <SubType>Code</SubType>
     </Compile>
@@ -110,6 +107,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="D3\PM\pracconverting.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D3\PM\review01.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
