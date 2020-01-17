@@ -126,6 +126,19 @@ print(sumAll(5,4,3,2,1))
 print(sumAll(5,-4,-4,2,1))
 
 
+
+def factorial(arg1 , *arg2):
+    for var in arg2:
+        arg1 *= var
+    "This is factorial"       
+
+    return arg1
+print("="*50)
+print(factorial(5,4,3,2,1))
+
+
+
+
 print("*"*50)
 
 def addAll(*arg1):
@@ -136,9 +149,6 @@ def addAll(*arg1):
 
 print("*"*50)
 print(addAll(5,-4,-4,2,1,1,2,3))
-
-
-
 
 
 """
@@ -159,6 +169,11 @@ sum = lambda arg1, arg2: arg1 + arg2;
 
 
 print("Value of Total :" , sum(10,20))
+
+
+multiply = lambda arg1, arg2: arg1 * arg2;
+
+print("Value of Multiplication of two :" , multiply(10,20))
 
 
 
@@ -187,6 +202,53 @@ print(result) # 12
 
 result = add_mul("multiply", 8,4)
 print(result) #32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def twoFunctions(choice, *arg2):
+    result = 0
+    if choice =="add":
+        for arg in arg2:
+            result += arg
+    elif choice =="mul":
+        result = 1
+        for arg in arg2:
+            result *= arg
+    return result
+
+print("o"*50)
+result = twoFunctions("add",5,4,3,2,1)
+print(result)
+
+result = twoFunctions("mul",5,4,3,2,1)
+print(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #Keyword parameter
