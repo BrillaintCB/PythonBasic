@@ -24,3 +24,12 @@ print("a | b= ", a | b)
 print("~ a == ", ~a)
 print("a ^ b =", a ^ b)
 
+
+totalMin = 60*60
+minimumMin = totalMin * 0.2
+
+minimunHour = minimumMin / 60  
+reminder = totalMin % 60
+
+print(minimunHour , " " , reminder)
+
