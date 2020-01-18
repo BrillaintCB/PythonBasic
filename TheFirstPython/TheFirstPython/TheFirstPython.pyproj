@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>56d85ab2-2089-46e0-869f-5fa81e3adfd3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>D4\AM\regularEx01.py</StartupFile>
+    <StartupFile>D4\PM\prac04.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -118,7 +118,28 @@
     <Compile Include="D4\AM\prac01.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="D4\AM\prac1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="D4\AM\regularEx01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D4\PM\prac01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D4\PM\prac02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D4\PM\prac03.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D4\PM\prac04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D4\PM\SocketClient.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D4\PM\Sockets.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
