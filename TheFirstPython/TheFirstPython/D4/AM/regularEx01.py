@@ -26,40 +26,19 @@ print(matchObj.sub("\g<1>-*******", data))
 # Charaters class []
 # [0-5] = [012345]
 
-
-
-
-
-
-
 #Dot(.)
 # a.b         abc, a0b
 
-
-
-
 # *
 # ca*t                ct , cat , caaat
-
-
 #(+)
 # ct No              cat caaaat true
-
-
-
-
-
 # ({a,b})  
 #  ca{2}t         cat No             caaat yes
-
 #{m,n}
 #ca{2,5}t         cat no , caat      true , caaaaat true
-
-
 #?         0 or 1
 #ab?c          ac yes  abc yes     abbc no
-
-
 #match
 p = re.compile('[a-z]+')
 
