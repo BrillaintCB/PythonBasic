@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>56d85ab2-2089-46e0-869f-5fa81e3adfd3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>D5\PM\prac01.py</StartupFile>
+    <StartupFile>D5\AM\prac04.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -152,6 +152,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="D5\AM\prac04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D5\AM\prac05.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="D5\PM\kakao01.py">

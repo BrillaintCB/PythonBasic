@@ -18,17 +18,12 @@ def calculate(day):
         deposit = 10 * pow(2,i-1)
         sum += deposit
     print('{:20,}{:<20}' .format(sum,"원 입니다."))
-
-
 calculate(1)
 calculate(20)
 calculate(30)
 
 
-
-
 #Formula to calculate compound interest annually is given by:
-
 #Compound Interest = P(1 + R/100)r
 #Where,
 #P is principle amount
