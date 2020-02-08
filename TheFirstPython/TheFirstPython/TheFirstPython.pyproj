@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>56d85ab2-2089-46e0-869f-5fa81e3adfd3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>D5\AM\prac04.py</StartupFile>
+    <StartupFile>D6\PM\binaryTree.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -163,6 +163,30 @@
     <Compile Include="D5\PM\prac01.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="D6\AM\01Prac.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D6\AM\exercise04.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D6\AM\exercise04Lec.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D6\AM\JumpEx01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D6\AM\list.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D6\AM\multiThreading.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D6\PM\binaryTree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D6\PM\listCalculation.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="D1\" />
@@ -180,6 +204,9 @@
     <Folder Include="D5\" />
     <Folder Include="D5\AM\" />
     <Folder Include="D5\PM\" />
+    <Folder Include="D6\" />
+    <Folder Include="D6\AM\" />
+    <Folder Include="D6\PM\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

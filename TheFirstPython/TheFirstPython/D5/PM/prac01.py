@@ -1,6 +1,3 @@
-
-
-
 menuDict = dict()
 menuDict["Coffee"] = 200
 menuDict["Coke"] = 250
@@ -9,9 +6,10 @@ menuLists = []
 
 while(True):
     print("Please Insert money")
+    
     userMoney += int(input())
 
-    print("1. Coffee(200)	2. Coke(250)	3. Return	4. Exit $",userMoney)
+    print("1. Coffee(200)	2. Coke(250)	3. Return	4. Exit $" , userMoney)
     userInput = int(input())
 
 
