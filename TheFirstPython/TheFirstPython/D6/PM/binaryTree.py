@@ -63,26 +63,14 @@ class BinarySearchTree(object):
 
   #  elif key < node.data:
         node.left, deleted = self._delete_value(node.left, key)
-        
-
 
 #  7:30 ->
-            
-            
     #delete end
 
-
-
-
-
 array = [1, 4, 5, 2, 3, 7, 6, 8]
-
 bst = BinarySearchTree()
-
 for x in array:
     bst.insert(x)
-
 #find
-
 print(bst.find(15))
 print(bst.find(14))
