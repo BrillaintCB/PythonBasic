@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>56d85ab2-2089-46e0-869f-5fa81e3adfd3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>D7\AM\pythoncrawler02.py</StartupFile>
+    <StartupFile>D7\AM\crawler04.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -196,6 +196,9 @@
     <Compile Include="D7\AM\02prac.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="D7\AM\crawler04.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="D7\AM\prac01.py">
       <SubType>Code</SubType>
     </Compile>
@@ -203,6 +206,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="D7\AM\pythoncrawler02.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D7\AM\pythoncrawler03.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
