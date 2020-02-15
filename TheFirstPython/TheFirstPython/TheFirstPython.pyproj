@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>56d85ab2-2089-46e0-869f-5fa81e3adfd3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>D6\PM\kakaoTest.py</StartupFile>
+    <StartupFile>D7\AM\pythoncrawler02.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -190,6 +190,21 @@
     <Compile Include="D6\PM\listCalculation.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="D7\AM\01Matrix.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D7\AM\02prac.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D7\AM\prac01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D7\AM\pythoncrawler.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="D7\AM\pythoncrawler02.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="D1\" />
@@ -210,6 +225,9 @@
     <Folder Include="D6\" />
     <Folder Include="D6\AM\" />
     <Folder Include="D6\PM\" />
+    <Folder Include="D7\" />
+    <Folder Include="D7\AM\" />
+    <Folder Include="D7\PM\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
