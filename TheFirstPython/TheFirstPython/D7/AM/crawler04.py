@@ -49,7 +49,7 @@ for index, stat in enumerate(tracking):
 #print(str(names[0]).split('<div align="left">')[2])
 #print(str(names[0]).split('<div align="left">')[3])
 
-
+ //
 
 print(str(str(str(names[0]).split('<br/>')[0]).split(',')[0]).lstrip("\['["))
 print(str(str(str(names[0]).split('<br/>')[0]).split(',')[1]).strip(' '))
