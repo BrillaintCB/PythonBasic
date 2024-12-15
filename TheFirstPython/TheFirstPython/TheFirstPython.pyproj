@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>56d85ab2-2089-46e0-869f-5fa81e3adfd3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>D7\AM\crawler04.py</StartupFile>
+    <StartupFile>HouseInvest\house.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -211,6 +211,7 @@
     <Compile Include="D7\AM\pythoncrawler03.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="HouseInvest\house.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="D1\" />
@@ -234,6 +235,7 @@
     <Folder Include="D7\" />
     <Folder Include="D7\AM\" />
     <Folder Include="D7\PM\" />
+    <Folder Include="HouseInvest\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
